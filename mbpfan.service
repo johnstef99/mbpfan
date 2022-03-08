@@ -1,0 +1,8 @@
+[Unit]
+Description=Personal control of macbook's fan
+
+[Service]
+ExecStart=/usr/bin/mbpfan
+
+[Install]
+WantedBy=multi-user.target
